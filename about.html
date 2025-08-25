@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="nav-bar">
+          <ul class="nav">
+            <li class="nav-bar-content">About</li>
+            <li class="nav-bar-content">Services</li>
+            <li class="nav-bar-content">Contact</li>
+          </ul>
+        </nav>
+        <h1 class="title">Cat</h1>
+        <figure class="image">
+          <img
+            src="https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_640.jpg"
+            alt="cat sleeping"
+            width="500"
+            height="350" />
+          <figcaption class="figcap">Cat sleeping</figcaption>
+        </figure>
+      </header>
+      <section>
+        <form action="">
+          <fieldset>
+            <legend>Fill out this form</legend>
+            <label for="first-name">First name:</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="Ex. Juan"
+              required /><br />
+            <label for="last-name">Last name:</label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Ex. Dela Cruz" /><br />
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="13"
+              max="100"
+              required /><br />
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" /><label
+              for="male"
+              >Male</label
+            >
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female" /><label for="female">Female</label> <br />
+            <label for="email">Email address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ex. example@email.com" /><br /><br />
+            <label for="breed">Select your favorite breed</label>
+            <select name="breed" id="breed">
+              <option value="siamese-cat">Siamese Cat</option>
+              <option value="persian-cat">Persian Cat</option>
+              <option value="sphynx-cat">Sphynx Cat</option>
+              <option value="burmese-cat">Burmese Cat</option></select
+            ><br /><br />
+            <label>Where did you see us?</label><br />
+            <input
+              type="checkbox"
+              id="facebook"
+              name="webpage"
+              value="facebook" /><label for="facebook">Facebook</label>
+
+            <input
+              type="checkbox"
+              id="tiktok"
+              name="webpage"
+              value="tiktok" /><label for="tiktok">Tiktok</label>
+
+            <input
+              type="checkbox"
+              id="threads"
+              name="webpage"
+              value="threads" /><label for="threads">Threads</label>
+
+            <input
+              type="checkbox"
+              id="youtube"
+              name="webpage"
+              value="youtube" /><label for="youtube">Youtube</label><br />
+
+            <br /><button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
